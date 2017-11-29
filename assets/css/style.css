@@ -1,0 +1,246 @@
+/*Estilos*/
+
+
+/*Estilos generales*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+   	font-family: 'Lato', Helvetica, sans-serif;
+}
+
+/*Estilo contenedor general*/
+.container
+{
+    width:100%;
+    margin:0px auto;
+}
+
+/*--------------------------------------*/
+/*Estilos primera seccion del encabezado*/
+/*--------------------------------------*/
+
+
+/* Estilo del Contenedor del encabezado*/
+.containerList
+{
+	background-color: #000;
+	width: 100%;
+	padding: 0.5em 4em;
+	height: 4em;
+	/*border: 1px solid blue;*/ /*ayuda visual*/
+}
+
+/*Estilo logo*/
+.listA
+{
+	padding: 0.5em 0 0 4em; 
+	/*border: 1px solid red;*/  /*ayuda visual*/
+	float: left;
+}
+
+/*Estilo logo*/
+#flamenco
+{
+	height: 3em;
+	width: auto;
+	margin-left: 0.5em;
+}
+
+.listB
+{
+	/*border: 1px solid purple;*/ /*ayuda visual*/
+	padding: 0.5em 4em 0 0; 
+}
+
+#hamburger
+{
+	width: auto;
+	color: white;
+	padding: 0.5em 0.5em;
+	float: right;
+	color: #fd2859;
+	border: 1px solid #f7a8b9;
+	border-radius: 0.4em;
+
+}
+
+#hamburger:hover
+{
+	color: #f7a8b9;
+}
+
+/*Estilo Nombre empresa*/
+h1
+{
+	font-size: 25px;
+	display: inline-block;
+	color: #fd2859;
+	/*padding-top: 1em;*/
+	/*border: 1px solid black;*/  /*ayuda visual*/
+}
+
+/*Estilos etiqueta a de la lista*/
+ul > li > a
+{
+	text-decoration: none;
+	color: #f7a8b9;
+	margin-left: 1em;
+}
+
+/*color de las letras al pasar cursor*/
+ul > li > a:hover
+{
+	color: #fd2859;
+}
+
+
+ul > li 
+{
+	display: inline-block; /*los integrantes de la lista quedan uno al lado del otro*/
+}
+
+ul
+{
+	float: right; /*la lista se posiciona al lado derecho de la pantalla*/
+}
+
+/*---------------*/
+/*Segunda seccion*/
+/*---------------*/
+
+
+/*agregar imagen de fondo*/
+.container2
+{
+	background-image: url(../img/img1.jpg); /*imagen de fondo*/
+	background-size: 100% auto; /*puede ser cover*/
+    background-repeat: no-repeat;  /*no se mostrara la imagen de fondo en mosaico*/
+	background-position: 10% 70%; /*mover imagen*/
+	background-attachment: scroll;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 25em;
+	opacity: 0.8;
+}
+
+/*Estilo titulo*/
+.title
+{
+	color: #f4587a; 
+	text-align: center;
+	font-size: 4em;
+	width: 100%;
+	padding-top: 2em;
+	text-align: center;
+}
+
+/*Estilo subtitulo*/
+.subTitle
+{
+	color: #f4587a;
+	text-align: center;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+/*----------------------*/
+/*Estilo tercera seccion*/
+/*----------------------*/
+
+
+/*Estilo caja de informacion*/
+.container3
+{
+	padding: 2em 0
+}
+
+/*Estilo de caja que hacemos?*/
+.info
+{
+	padding: 0 6em 0 7em; 
+	margin-bottom: 1em;
+}
+
+
+/*Estilo cajas targetas*/
+.box
+{
+	border: none;
+	margin-right: 2.5em;
+}
+
+/*Estilo botones*/
+button
+{
+	color: #f7a8b9;
+	background-color: #000;
+	border: none;
+	border-radius: 0.5em;
+	height: 2.5em;
+	width: 9em;
+}
+
+button:hover
+{
+	color: #000;
+	background-color: #f7a8b9;
+}
+
+/*Estilo caja contacto*/
+.contact
+{
+	margin-left: 0.5em;
+}
+
+/*Estilo mail*/
+.mail
+{
+	text-decoration: none;
+}
+
+.mail:hover
+{
+	color: #f7a8b9;
+}
+
+/*---------------------*/
+/*Estilo cuarta seccion*/
+/*---------------------*/
+
+.container4
+{
+	padding-bottom: 1em;
+}
+
+/*Estilo imagenes de caja targetas*/
+img
+{
+	width: 18.75em;
+	height: 12.5em;
+	border-radius: 0.5em;
+	opacity: 0.5;
+	margin-bottom: 1em;
+}
+
+/*opacidad de las fotos*/
+img:hover 
+{
+    opacity: 1.0;
+}
+
+/*--------------------------------*/
+/*Estilo quinta seccion del footer*/
+/*--------------------------------*/
+
+footer
+{
+	color: #f7a8b9;
+	background-color: #000;
+	width: 100%;
+	text-align: center;
+	height: 6em;
+	padding-top: 2em;
+	margin-top: 2em;
+}
+

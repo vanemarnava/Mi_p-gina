@@ -1,0 +1,97 @@
+
+/* MediaQueris o BreakPoints*/
+
+/*Breakpoint, desaparece el menu dejando en su lugar el de hamburguesa*/
+@media (max-width: 735px)
+{
+	[class*="col-"] 
+	{
+		max-width:100%;
+		flex: none;
+	}
+
+	.listB
+	{
+		display: none; /*desaparece el menu en palabras*/
+	}
+
+	/*cambios en el titulo y subtitulo*/
+	.title
+	{
+		font-size: 3em; /*cambio tamano letra*/
+	}
+	
+	.subTitle
+	{
+		font-size: 1em; /*cambio tamano letra*/
+	}
+
+	/*cambio nombre empresa*/
+	h1
+	{
+		margin-left: -2.5em;
+	}
+
+	/*cambios en la caja de informacion*/
+	.info
+	{
+		margin: 0.5em 2em 2em 0;
+		background-size: cover;
+		width: 100%;
+		box-sizing: border-box;
+	}
+	
+	/*cambio caja de contactanos*/
+	.contact
+	{
+		margin: 1em 0 0 6em;
+		background-size: cover;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	/*cambios en las cajas con imagenes*/
+	.box
+	{
+		margin: 1em 0 1em 3.5em;
+		background-size: cover;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	/*cambios en los parrafos de las cajas con las fotos*/
+	.box p 
+	{
+		margin: 0 8em 0 0;
+	}
+
+}
+
+/*BreakPoint para acomodar las cajas de las fotos*/
+@media (min-width: 600px) and (max-width: 1098px)
+{
+	.box
+	{
+		margin: 5em 0 0 5em;
+		background-size: cover;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	h1
+	{
+		margin-left: -1.5em;
+	}
+}
+
+/*BreakPoint para que no se muestre el menu de hamburguesa y se muestre el menu en palabras 
+uno al lado del otro*/
+@media (min-width: 736px)
+{
+	#hamburger
+	{
+		display: none;
+	}
+}
+
+
